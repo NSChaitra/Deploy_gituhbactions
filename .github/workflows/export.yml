@@ -25,7 +25,6 @@ on:
        default: solutions/
 
 env:
-#edit your values here
  ENVIRONMENT_URL: 'https://org26907746.crm.dynamics.com/'
   USERNAME: 'chaitra_ns@optum.com'
 
