@@ -48,7 +48,7 @@ jobs:
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
-        password-secret: ${{ secrets.password }}
+        password-secret: ${{ secrets.PASSWORD }}
  steps:
     - name: Install Power Platform Tools
       uses: microsoft/powerplatform-actions/actions-install@v1
